@@ -17,7 +17,7 @@ public with sharing class BatchLeadConvert implements Database.Batchable<SObject
             leadConverts.add(lc);
         }
         Database.convertLead(leadConverts, true);
-        //comment Master Branch
+        //comment SFDCINIT Branch FROM SF Org
     }
 
     public void finish(Database.BatchableContext ctx){
