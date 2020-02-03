@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "orgName": "rachidtouri company",
+=======
+  "orgName": "Demo company",
+>>>>>>> local/BUGFIX-538
   "edition": "Developer",
   "features": []
 }

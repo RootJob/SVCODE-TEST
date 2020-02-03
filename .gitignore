@@ -27,3 +27,15 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
+.forceignore
+.gitignore
+.prettierignore
+.prettierrc
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+README.md
+config/project-scratch-def.json
+force-app/main/default/lwc/.eslintrc.json
+force-app/main/default/staticresources/HeaderHooter.js
+sfdx-project.json

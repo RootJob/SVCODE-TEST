@@ -6,7 +6,11 @@ public with sharing class BatchLeadConvert implements Database.Batchable<SObject
     public Database.QueryLocator start(Database.BatchableContext ctx){
         return Database.getQueryLocator([SELECT Id FROM Lead WHERE ConvertedContactId = null]);
     }
+<<<<<<< HEAD
 
+=======
+//Comment added from SF
+>>>>>>> local/BUGFIX-538
     public void execute(Database.BatchableContext ctx, List<Lead> records){
         List<Database.LeadConvert> leadConverts = new List<Database.LeadConvert>();
         for(Lead record:records){
@@ -17,9 +21,13 @@ public with sharing class BatchLeadConvert implements Database.Batchable<SObject
             leadConverts.add(lc);
         }
         Database.convertLead(leadConverts, true);
+<<<<<<< HEAD
       //comment SFDCINIT Branch FROM SF Org Added to master
       // Abranch added
 
+=======
+        //comment SFDCINIT Branch
+>>>>>>> local/BUGFIX-538
     }
 
     public void finish(Database.BatchableContext ctx){
