@@ -1,0 +1,31 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId">
+<aura:attribute name="newContact" type="Object"/>
+<aura:attribute name="accountRecord" type="Object"/>
+<aura:attribute name="recordSaveError" type="String" default=""/>
+<force:recordData aura:id="accountRecord"
+    layoutType="FULL"
+    recordId="{!v.recordId}" 
+    targetError="{!v.recordSaveError}"
+    targetRecord="{!v.newContact}"
+    targetFields ="{!v.accountRecord}"
+    fields="Id, Name"
+    mode="EDIT" 
+    recordUpdated="{!c.handleRecordUpdated}" />
+                 
+
+    <!-- Display the new contact form -->
+    <div class="Record Details">
+        <lightning:card iconName="action:edit" title="Edit Account">
+            <div class="slds-p-horizontal--small">
+                <lightning:input label="Account Name" value="{!v.accountRecord.Name}"/>
+                <br/>
+                <lightning:button label="Save Account" variant="brand" onclick="{!c.handleSaveRecord}" />
+            </div>
+        </lightning:card>
+    </div>
+    <!-- Display Lightning Data Service errors -->
+    <aura:if isTrue="{!not(empty(v.recordSaveError))}">
+        <div class="recordError">
+            {!v.recordSaveError}</div>
+    </aura:if>
+</aura:component>

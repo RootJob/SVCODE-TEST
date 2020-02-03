@@ -1,0 +1,12 @@
+<aura:component controller="testController" implements="forceCommunity:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	
+	<ltng:require scripts="{!join(',', 
+    $Resource.pkb_js_dependencies+ 'jquery.min.js', 
+    $Resource.pkb_js_dependencies+ 'bootstrap.min.js', 
+    $Resource.pkb_js_dependencies+ 'typeahead.bundle.min.js')}"     afterScriptsLoaded="{!c.setup}"/>
+    <ltng:require scripts="{! $Resource.HeaderHooter}" />
+    <aura:handler name="init" value="{!this}" action="{!c.initialize}"/>
+    
+    teeest
+    
+</aura:component>
