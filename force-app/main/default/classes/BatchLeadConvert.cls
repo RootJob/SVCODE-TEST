@@ -16,10 +16,11 @@ public with sharing class BatchLeadConvert implements Database.Batchable<SObject
             lc.setLeadId(record.Id);
 
             leadConverts.add(lc);
-        }
-        Database.convertLead(leadConverts, true);
+            Database.convertLead(leadConverts, true);
       //comment SFDCINIT Branch FROM SF Org Added to master
       // Abranch added
+        }
+        
 
     }
 
