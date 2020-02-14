@@ -9,7 +9,7 @@ public class BatchLeadConvertTest {
                 Company = 'Salesforce'
         );
         insert l;
-        BatchLeadConvert job = new BatchLeadConvert();
+        BatchLeadConvert  job = new BatchLeadConvert();
         Test.startTest();
             Id jobId = Database.executeBatch(job);
         Test.stopTest();
