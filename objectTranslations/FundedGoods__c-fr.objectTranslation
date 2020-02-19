@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Funded Good</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Funded Goods</value>
+    </caseValues>
+    <fields>
+        <label>Code usage</label>
+        <name>VehicleCode__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Bien financé</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
