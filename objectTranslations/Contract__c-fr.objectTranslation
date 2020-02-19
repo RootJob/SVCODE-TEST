@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Affaire</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Affaires</value>
+    </caseValues>
+    <fields>
+        <label>Apport fait par le client</label>
+        <name>Deposit__c</name>
+    </fields>
+    <fields>
+        <label>Statut financier du contrat</label>
+        <name>FinancialState__c</name>
+        <picklistValues>
+            <masterLabel>00</masterLabel>
+            <translation>En cours de création</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>SAIN Sans impayé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation>SAIN Avec impayé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation>Précontentieux</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation>Contentieux</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation>Perte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation>Annulé</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type de moyen de paiement</label>
+        <name>PaymentType__c</name>
+        <picklistValues>
+            <masterLabel>CBAN</masterLabel>
+            <translation>Carte Bancaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHAN</masterLabel>
+            <translation>Lettre de Change</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHEQ</masterLabel>
+            <translation>Chèque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPRI</masterLabel>
+            <translation>Carte Privative</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I0</masterLabel>
+            <translation>Chèque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I1</masterLabel>
+            <translation>Prélèvement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I3</masterLabel>
+            <translation>Prélèvement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I4</masterLabel>
+            <translation>Virement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I6</masterLabel>
+            <translation>Lettre de Change</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I7</masterLabel>
+            <translation>Billet à ordre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I8</masterLabel>
+            <translation>Mandat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAND</masterLabel>
+            <translation>Mandat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORDR</masterLabel>
+            <translation>Billet à ordre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRLV</masterLabel>
+            <translation>Prélèvement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIRM</masterLabel>
+            <translation>Virement</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Loyer financier + Majoration condition de paiement + frais de modification de contrat)</help>
+        <label>Loyer financier HT</label>
+        <name>RentalAmountHT__c</name>
+    </fields>
+    <fields>
+        <label>Valeur de rachat HT</label>
+        <name>RepurchaseVehicleAmountET__c</name>
+    </fields>
+    <fields>
+        <label>Valeur de rachat TTC</label>
+        <name>RepurchaseVehicleAmountIT__c</name>
+    </fields>
+    <fields>
+        <label>Montant financé HT</label>
+        <name>TotalFinancedAmountET__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>F2ML_Contract</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Informations --></label>
+            <section>Informations</section>
+        </sections>
+        <sections>
+            <label><!-- Informations adresse --></label>
+            <section>Informations adresse</section>
+        </sections>
+        <sections>
+            <label><!-- Informations liées à l&apos;échéancier --></label>
+            <section>Informations liées à l&apos;échéancier</section>
+        </sections>
+        <sections>
+            <label><!-- Moyens de paiement --></label>
+            <section>Moyens de paiement</section>
+        </sections>
+        <sections>
+            <label><!-- Structures associées --></label>
+            <section>Structures associées</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Affaire</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
