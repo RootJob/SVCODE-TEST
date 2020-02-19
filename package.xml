@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Contract__c.Deposit__c</members>
+        <members>Contract__c.FinancialState__c</members>
+        <members>Contract__c.PaymentType__c</members>
+        <members>Contract__c.RentalAmountHT__c</members>
+        <members>Contract__c.RepurchaseVehicleAmountET__c</members>
+        <members>Contract__c.RepurchaseVehicleAmountIT__c</members>
+        <members>Contract__c.TotalFinancedAmountET__c</members>
+        <members>FundedGoods__c.VehicleCode__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Contract__c-fr</members>
+        <members>FundedGoods__c-fr</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Contract__c-F2ML_Contract</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>lwc004_AutoResponseFormCustom</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>47.0</version>
+</Package>
